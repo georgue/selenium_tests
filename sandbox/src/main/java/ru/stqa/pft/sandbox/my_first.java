@@ -5,6 +5,7 @@ public class my_first{
 		System.out.println("Hellow, world");
 	}
 	
+public class My_First {
 
 }
 
