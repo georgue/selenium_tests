@@ -1,10 +1,11 @@
 apply plugin: 'java'
-apply plugin: 'application'
-mainClassName = "ru.stqa.pft.sandbox.My_First"
 
 repositories {
     mavenCentral()
 }
-dependencies{
+dependencies {
     compile group: 'org.testng', name: 'testng', version: '6.9.10'
+
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
+
 }
