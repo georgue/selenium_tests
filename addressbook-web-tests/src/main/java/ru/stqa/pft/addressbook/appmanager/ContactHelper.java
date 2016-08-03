@@ -36,4 +36,15 @@ public class ContactHelper extends HelperBase {
         click(By.linkText("home"));
         click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
     }
+
+    public void deleteAllContacts() {
+        //click selectall checkbox
+        click(By.id("MassCB"));
+        //click delete button
+        click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
+    }
+
+    public void acceptAlert() {
+        wd.switchTo().alert().accept();
+    }
 }
