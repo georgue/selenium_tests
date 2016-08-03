@@ -23,8 +23,17 @@ public class ContactHelper extends HelperBase {
         //wd.findElement(By.xpath("//div[@id='content']/form/input[21]")).click();
     }
 
-    public void goToHomePage() {
+    public void updateContactForm(){
+        click(By.name("update"));
+    }
+
+    public void goToContactPage() {
         click(By.linkText("home"));
         //wd.findElement(By.linkText("home")).click();
+    }
+
+    public void goToContactModficationForm() {
+        click(By.linkText("home"));
+        click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
     }
 }
