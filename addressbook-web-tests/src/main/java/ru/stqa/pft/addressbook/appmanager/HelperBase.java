@@ -21,9 +21,15 @@ public class HelperBase {
 
     protected void type(By locator, String text) {
         click(locator);
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
         // если передадим null то будет значение по умолчанию
+        if (text != null) {
+            String existingText = wd.findElement(locator).getAttribute("value");
+            // не вводить текст в поле если он уже существует такой-же
+            if (! text.equals(existingText)){
+                wd.findElement(locator).clear();
+                wd.findElement(locator).sendKeys(text);
+            }
+        }
     }
     public boolean isAlertPresent() {
         try {
