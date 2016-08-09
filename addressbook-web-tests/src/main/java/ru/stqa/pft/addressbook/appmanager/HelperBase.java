@@ -23,6 +23,7 @@ public class HelperBase {
         click(locator);
         wd.findElement(locator).clear();
         wd.findElement(locator).sendKeys(text);
+        // если передадим null то будет значение по умолчанию
     }
     public boolean isAlertPresent() {
         try {
