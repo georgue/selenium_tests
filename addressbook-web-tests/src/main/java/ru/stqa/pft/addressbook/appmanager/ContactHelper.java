@@ -1,8 +1,11 @@
 package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactDate;
 
 /**
@@ -13,15 +16,21 @@ public class ContactHelper extends HelperBase {
         super(wd);
     }
 
-    public void fillContactForm(ContactDate contactDate) {
+    public void fillContactForm(ContactDate contactDate, boolean creation ) {
         type(By.name("firstname"), contactDate.getFirstname());
         type(By.name("lastname"), contactDate.getLastname());
         type(By.name("email"), contactDate.getEmail());
+        // если мы на форме создания контакта поля новая группа быть должно
+        if (creation){
+            new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactDate.getGroup());
+        } else {
+            // проверяет что этого элемента нет на странице модификации контактов
+            Assert.assertFalse(isAlertPresent(By.name("new_group")));
+        }
     }
 
     public void submitContactForm() {
         click(By.name("submit"));
-        //wd.findElement(By.xpath("//div[@id='content']/form/input[21]")).click();
     }
 
     public void updateContactForm(){
@@ -30,7 +39,6 @@ public class ContactHelper extends HelperBase {
 
     public void goToContactPage() {
         click(By.linkText("home"));
-        //wd.findElement(By.linkText("home")).click();
     }
 
     public void goToContactModficationForm() {
