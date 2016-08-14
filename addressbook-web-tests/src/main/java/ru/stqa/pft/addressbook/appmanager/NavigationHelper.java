@@ -14,6 +14,13 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void gotoGroupPage() {
+        // оптимизация проверяем на какой страницы мы находимся
+        // страница с надписью группы и у которой  есть кнопка создания новой группы
+        if ( isAlertPresent(By.tagName("h1"))
+                && wd.findElement(By.tagName("h1")).getText().equals("Groups")
+                && isAlertPresent(By.name("new"))){
+            return;
+        }
         click(By.linkText("groups"));
     }
 
@@ -22,7 +29,12 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void gotoHomePage() {
+        // оптимизация проверяем что мы на главной странице со списком контактов (проверяем на наличие таблицы)
+        if (isAlertPresent(By.id("maintable"))){
+            return;
+        }
         click(By.linkText("home"));
+
     }
 
 
