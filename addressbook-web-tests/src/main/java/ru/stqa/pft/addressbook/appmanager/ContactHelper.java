@@ -42,18 +42,40 @@ public class ContactHelper extends HelperBase {
     }
 
     public void goToContactModficationForm() {
-        click(By.linkText("home"));
         click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
     }
 
-    public void deleteAllContacts() {
-        //click selectall checkbox
-        click(By.id("MassCB"));
+    public void deleteContacts() {
+            //click checkbox
+            click(By.name("selected[]"));
+
         //click delete button
         click(By.xpath("//div[@id='content']/form[2]/div[2]/input"));
+
+
+    }
+
+    public void createContact(ContactDate contactDate, boolean b) {
+        gotoContactCreationForm();
+        fillContactForm(contactDate, b);
+        submitContactForm();
+        goToContactPage();
+    }
+
+    private void gotoContactCreationForm() {
+        click(By.linkText("add new"));
     }
 
     public void acceptAlert() {
         wd.switchTo().alert().accept();
+    }
+
+    public boolean isThisAContact() {
+        return isAlertPresent(By.name(("selected[]")));
+
+    }
+
+    public boolean isThisAModificate() {
+        return isAlertPresent(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
     }
 }

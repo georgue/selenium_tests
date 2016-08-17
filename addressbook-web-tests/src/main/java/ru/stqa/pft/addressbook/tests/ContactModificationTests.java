@@ -10,6 +10,10 @@ public class ContactModificationTests extends TestBase {
 
     @Test
     public void testsContactModification(){
+        app.getNavigationHelper().gotoHomePage();
+        if(! app.getContactHelper().isThisAModificate()) {
+            app.getContactHelper().createContact(new ContactDate("goga", "vibel", "goga.vibel@mail.ru", "test1"), true);
+        }
         app.getContactHelper().goToContactModficationForm();
         app.getContactHelper().fillContactForm(new ContactDate("masha", "vogov", "masha-vogov@mail.ru", null), false);
         app.getContactHelper().updateContactForm();
