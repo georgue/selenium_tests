@@ -61,4 +61,8 @@ public class GroupHelper extends HelperBase {
         return isAlertPresent(By.name("selected[]"));
 
     }
+
+    public int getGroupCount() {
+        return wd.findElements(By.name("selected[]")).size();
+    }
 }
