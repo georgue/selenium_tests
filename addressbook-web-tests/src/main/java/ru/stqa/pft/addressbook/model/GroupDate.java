@@ -1,29 +1,14 @@
 package ru.stqa.pft.addressbook.model;
 
 public class GroupDate {
-    private final String id;
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    private int id;
     private final String name;
     private final String header;
     private final String footer;
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        GroupDate groupDate = (GroupDate) o;
-
-        if (id != null ? !id.equals(groupDate.id) : groupDate.id != null) return false;
-        return name != null ? name.equals(groupDate.name) : groupDate.name == null;
-
-    }
-
-    @Override
-    public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        return result;
-    }
 
     @Override
     public String toString() {
@@ -33,17 +18,37 @@ public class GroupDate {
                 '}';
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        GroupDate groupDate = (GroupDate) o;
+
+        if (id != groupDate.id) return false;
+        return name != null ? name.equals(groupDate.name) : groupDate.name == null;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = id;
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        return result;
+    }
+
     public GroupDate(String name, String header, String footer) {
-        this.id = null;
+        this.id = 0;
         this.name = name;
         this.header = header;
         this.footer = footer;
     }
 
-    public GroupDate(String id, String name, String header, String footer) {
+    public GroupDate(int id, String name, String header, String footer) {
         this.id = id;
         this.name = name;
         this.header = header;
