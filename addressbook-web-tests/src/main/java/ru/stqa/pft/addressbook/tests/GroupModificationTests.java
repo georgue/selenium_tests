@@ -1,12 +1,11 @@
 package ru.stqa.pft.addressbook.tests;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.GroupDate;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * Created by goga on 27.07.2016.
@@ -30,7 +29,14 @@ public class GroupModificationTests extends TestBase{
 
         before.remove(before.size() - 1);
         before.add(group);
+        // можно сортировать коллекции с тем порядком который нужен
+        // до Java8
+        //Collections.sort(List, Comporator);
+        // в java8
+        Comparator<? super GroupDate> ById = (g1,g2) -> Integer.compare(g1.getId(), g2.getId());
+        before.sort(ById);
+        after.sort(ById);
 
-        Assert.assertEquals( new HashSet <Object>(before) , new HashSet <Object>(after));
+        Assert.assertEquals( before , after);
     }
 }
