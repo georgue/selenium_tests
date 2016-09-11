@@ -61,53 +61,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContactCreationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
-              <folding>
-                <element signature="e#2256#2257#0" expanded="true" />
-                <element signature="e#2292#2293#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactHelper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
-              <folding>
-                <element signature="e#1438#1439#0" expanded="true" />
-                <element signature="e#2618#2631#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactDeletionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactDeletionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="114" selection-start-line="14" selection-start-column="114" selection-end-line="14" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactModificationTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContactModificationTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
@@ -404,14 +358,14 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/model/GroupDate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/model/ContactDate.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactDeletionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/model/GroupDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/model/ContactDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" />
       </list>
     </option>
   </component>
@@ -1069,27 +1023,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 33m 20s.xml">
-      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 34m 42s.xml">
-      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 39m 28s.xml">
-      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 41m 06s.xml">
-      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 51m 06s.xml">
-      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 52m 52s.xml">
-      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 52m 58s.xml">
-      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 54m 53s.xml">
       <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
     </history-entry>
@@ -1099,9 +1032,30 @@
     <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 19h 59m 44s.xml">
       <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 20h 43m 34s.xml">
+      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 20h 44m 01s.xml">
+      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 20h 44m 24s.xml">
+      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 20h 45m 40s.xml">
+      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 22h 02m 44s.xml">
+      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 22h 04m 13s.xml">
+      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests_testContactCreationTests - 2016.09.11 at 22h 05m 15s.xml">
+      <configuration name="ContactCreationTests.testContactCreationTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1296" height="760" extended-state="1" />
+    <frame x="-8" y="0" width="1296" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1152,26 +1106,8 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java</url>
-          <line>104</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1180,16 +1116,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1465,20 +1391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/11af8613a6b909307c7f2f554249c7b176cb50e6/testng-6.9.10-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/11af8613a6b909307c7f2f554249c7b176cb50e6/testng-6.9.10-sources.jar!/org/testng/internal/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="622" column="0" selection-start-line="622" selection-start-column="0" selection-end-line="622" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -1518,32 +1430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/model/GroupDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/model/ContactDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/2.53.1/de4719beceae211f44c038c59691b4aea1b3ebd2/selenium-api-2.53.1-sources.jar!/org/openqa/selenium/WebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1556,22 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="17" column="105" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
           <folding />
         </state>
       </provider>
@@ -1595,6 +1465,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/model/GroupDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/11af8613a6b909307c7f2f554249c7b176cb50e6/testng-6.9.10-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.9.10/11af8613a6b909307c7f2f554249c7b176cb50e6/testng-6.9.10-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="675" column="0" selection-start-line="675" selection-start-column="0" selection-end-line="675" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/model/ContactDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding>
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#2618#2631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactDeletionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1603,14 +1546,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/stqa/pft/addressbook/tests/ContactModificationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
-          <folding>
-            <element signature="e#1438#1439#0" expanded="true" />
-            <element signature="e#2618#2631#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="173">
+          <caret line="17" column="105" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+          <folding />
         </state>
       </provider>
     </entry>
