@@ -12,7 +12,7 @@ public class ContactDeletionTest extends TestBase {
     public void testContactDeletion(){
         app.getNavigationHelper().gotoHomePage();
         if (! app.getContactHelper().isThisAContact()){
-            app.getContactHelper().createContact(new ContactDate("goga", "vibel", "goga.vibel@mail.ru", "test1"),true);
+            app.getContactHelper().createContact(new ContactDate("goga", "vibel", "goga.vibel@mail.ru", "test1", 0),true);
         }
         app.getContactHelper().deleteContacts();
         app.getContactHelper().acceptAlert();
