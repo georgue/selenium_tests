@@ -1,7 +1,7 @@
 package ru.stqa.pft.addressbook.tests;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.GroupDate;
 
@@ -11,32 +11,32 @@ import java.util.*;
  * Created by goga on 27.07.2016.
  */
 public class GroupModificationTests extends TestBase{
+
+    @BeforeMethod
+    public void ensurePreconditions(){
+        app.goTo().groupPage();
+        if (! app.group().isThereAGroup()){
+            app.group().create(new GroupDate("test1", null, null));
+        }
+    }
+
     @Test
     public void testGroupModification(){
-        app.getNavigationHelper().gotoGroupPage();
-        if (! app.getGroupHelper().isThereAGroup()){
-            app.getGroupHelper().createGroup(new GroupDate("test1", null, null));
-        }
-        List<GroupDate> before = app.getGroupHelper().getGroupList();
-        app.getGroupHelper().selectGroup(before.size() - 1);
-        app.getGroupHelper().initGroupModification();
-        GroupDate group = new GroupDate(before.get(before.size() - 1).getId(),"test1", "test2", "test3");
-        app.getGroupHelper().fillGroupForm(group);
-        app.getGroupHelper().submitGroupModification();
-        app.getGroupHelper().returnToGroupPage();
-        List<GroupDate> after = app.getGroupHelper().getGroupList();
+        List<GroupDate> before = app.group().list();
+        int index = before.size() - 1;
+        GroupDate group = new GroupDate(before.get(index).getId(),"test1", "test2", "test3");
+        app.group().modify(index, group);
+        List<GroupDate> after = app.group().list();
         Assert.assertEquals(after.size(),before.size());
-
-        before.remove(before.size() - 1);
+        before.remove(index);
         before.add(group);
         // можно сортировать коллекции с тем порядком который нужен
         // до Java8
-        //Collections.sort(List, Comporator);
+        //Collections.sort(list, Comporator);
         // в java8
         Comparator<? super GroupDate> ById = (g1,g2) -> Integer.compare(g1.getId(), g2.getId());
         before.sort(ById);
         after.sort(ById);
-
         Assert.assertEquals( before , after);
     }
 }

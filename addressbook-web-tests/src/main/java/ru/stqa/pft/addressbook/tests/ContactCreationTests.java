@@ -3,7 +3,6 @@ package ru.stqa.pft.addressbook.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.stqa.pft.addressbook.model.ContactDate;
-import ru.stqa.pft.addressbook.model.GroupDate;
 
 import java.util.Comparator;
 import java.util.List;
@@ -11,10 +10,10 @@ import java.util.List;
 
 public class ContactCreationTests extends TestBase {
 
-    @Test
+    @Test(enabled = false)
     public void testContactCreationTests() {
         List<ContactDate> before = app.getContactHelper().getContactList();
-        app.getNavigationHelper().gotoContactCreationForm();
+        app.goTo().gotoContactCreationForm();
         ContactDate contact = new ContactDate("goga", "vibel", "goga.vibel@mail.ru", "test1");
         app.getContactHelper().createContact(contact, true);
         List<ContactDate> after = app.getContactHelper().getContactList();

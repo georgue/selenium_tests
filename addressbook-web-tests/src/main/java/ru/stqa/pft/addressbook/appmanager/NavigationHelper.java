@@ -13,7 +13,7 @@ public class NavigationHelper extends HelperBase {
         super(wd);
     }
 
-    public void gotoGroupPage() {
+    public void groupPage() {
         // оптимизация проверяем на какой страницы мы находимся
         // страница с надписью группы и у которой  есть кнопка создания новой группы
         if ( isAlertPresent(By.tagName("h1"))
