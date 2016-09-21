@@ -89,4 +89,9 @@ public class GroupHelper extends HelperBase {
         submitGroupModification();
         returnToGroupPage();
     }
+    public void delete(int index) {
+        selectGroup(index);
+        deleteSelectedGroups();
+        returnToGroupPage();
+    }
 }

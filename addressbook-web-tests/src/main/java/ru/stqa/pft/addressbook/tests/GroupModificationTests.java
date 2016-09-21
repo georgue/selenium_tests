@@ -15,7 +15,7 @@ public class GroupModificationTests extends TestBase{
     @BeforeMethod
     public void ensurePreconditions(){
         app.goTo().groupPage();
-        if (! app.group().isThereAGroup()){
+        if ( app.group().list().size() == 0){
             app.group().create(new GroupDate("test1", null, null));
         }
     }
